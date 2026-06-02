@@ -51,10 +51,14 @@ sudo certbot --nginx
 I then updated the NGINX configuration to enable HTTPS, and redirected the HTTP traffic to my domain
 Jett.store
 
+8. Script test
+Script name - server-status.sh
 
+This script generates a server status webpage for the ICT171 cloud server project. It collects basic server information, including the current date, server uptime, NGINX status, SSL/TLS status, disk usage, and memory usage
 
+The script is stored on the server in: /home/azureuser/scripts/server-status.sh
 
+The output file is created in: /var/www/html/status.html
 
-
-
+The script output can be checked online at: https://jett.store/status.html
 
