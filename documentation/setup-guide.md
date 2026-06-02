@@ -26,6 +26,9 @@ Files are stored in - /var/www/html/
 Main files located in - /var/www/html/index.html
 
 5. Image upload
+
+Create a folder, add photos to transfer
+
 scp -i C:\Users\ahmaa\Downloads\yochi.pem -r %USERPROFILE%\Downloads\photos1\* azureuser@20.5.25.243:/tmp/
 
 Images then moved into my Linux folder
