@@ -48,7 +48,7 @@ www.Jett.store to 20.5.25.243
 7. SSL/TLS setup
 HTTPS was set up using Certbot and Let's Encrypt
 
-Selected Software: Nginx System: Linux (snap)
+Selected Software: Nginx   System: Linux (snap)
 
 Used the following commands in my Ubuntu VM
 
