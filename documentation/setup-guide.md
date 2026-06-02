@@ -18,7 +18,9 @@ C:\Users\ahmaa\Downloads\ ssh -i yochi.pem azureuser@20.5.25.243
 3. Installing Nginx
 
 sudo apt update
+
 sudo apt install nginx
+
 sudo systemctl status nginx
 
 4. Website file location
