@@ -34,9 +34,3 @@ Video Link: [add your video link]
 - Personal photos and monumental site sections
 - Clickable image preview
 - Server-side script with verifiable output
-
-## Repository Structure
-- website/ contains the website files
-- scripts/ contains the server script
-- documentation/ contains setup instructions
-- screenshots/ contains evidence of setup and testing
