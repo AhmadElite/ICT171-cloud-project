@@ -24,7 +24,6 @@ sudo apt install nginx
 sudo systemctl status nginx
 
 4. Website file location
-Files are stored in - /var/www/html/
 
 Main files located in - /var/www/html/index.html
 
