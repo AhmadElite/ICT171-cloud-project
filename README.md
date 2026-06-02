@@ -8,7 +8,7 @@ Student Number: 35690287
 This project is a cloud-hosted visual journey website that displays personal photography and monumental sites. The website is hosted on a Microsoft Azure virtual machine using Ubuntu Linux and NGINX.
 
 ## Live Website
-Website URL: https://jett.store/
+Website URL: https://www.jett.store/
 Public IP Address: 20.5.25.243  
 DNS Entry: jett.store
 
