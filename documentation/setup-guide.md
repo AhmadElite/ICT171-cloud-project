@@ -25,6 +25,7 @@ sudo systemctl status nginx
 
 4. Website file location
 Files are stored in - /var/www/html/
+
 Main files located in - /var/www/html/index.html
 
 5. Image upload
@@ -34,7 +35,9 @@ Create a folder, add photos to transfer
 scp -i C:\Users\ahmaa\Downloads\yochi.pem -r %USERPROFILE%\Downloads\photos1\* azureuser@20.5.25.243:/tmp/
 
 Images then moved into my Linux folder
+
 sudo mkdir -p /var/www/html/photos 1
+
 sudo chmod 644 /var/www/html/photos 1/
 
 6. DNS setup
@@ -44,13 +47,19 @@ Jett.store to 20.5.25.243
 
 7. SSL/TLS setup
 HTTPS was set up using Certbot and Let's Encrypt
+
 Selected Software: Nginx System: Linux (snap)
 
 Used the following commands in my Ubuntu VM
+
 sudo snap install core
+
 sudo snap refresh core
+
 sudo snap install --classic certbot
+
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
 sudo certbot --nginx
 
 I then updated the NGINX configuration to enable HTTPS, and redirected the HTTP traffic to my domain
