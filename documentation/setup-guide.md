@@ -40,9 +40,10 @@ sudo mkdir -p /var/www/html/photos 1
 sudo chmod 644 /var/www/html/photos 1/
 
 6. DNS setup
+ 
 The domain was purchased through Name.com. A record was created pointing it towards the public IP of the VM
 
-Jett.store to 20.5.25.243
+www.Jett.store to 20.5.25.243
 
 7. SSL/TLS setup
 HTTPS was set up using Certbot and Let's Encrypt
