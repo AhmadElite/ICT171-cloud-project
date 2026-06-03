@@ -25,6 +25,10 @@ sudo systemctl status nginx
 
 4. Website file location
 
+https://templatemo.com/live/templatemo_615_amber_folio
+
+The website layout and idea was adapted from the TemplateMo Amber Folio template, while the image gallery, CSS styling, filtering buttons, and lightbox functionality were customised for this project.
+
 Main files located in - /var/www/html/index.html
 
 5. Image upload
