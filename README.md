@@ -13,7 +13,7 @@ Public IP Address: 20.5.25.243
 DNS Entry: jett.store
 
 ## Video Explainer
-Video Link: [add your video link]
+Video Link: https://youtu.be/XuW61SBIlQ4 
 
 ## Technologies Used
 - Microsoft Azure
